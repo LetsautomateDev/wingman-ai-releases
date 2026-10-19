@@ -1,6 +1,6 @@
 # Wingman AI — pobierz aplikację
 
-Wydanie **Preview 0.3.2** dla Windows i macOS.
+Wydanie **Preview 0.3.3** dla Windows i macOS.
 
 | System | Pobierz |
 | --- | --- |
@@ -12,11 +12,13 @@ Wydanie **Preview 0.3.2** dla Windows i macOS.
 
 Powyższe linki zawsze prowadzą do aktualnego wydania Preview i można je umieścić na własnej stronie.
 
+Wersja 0.3.3 naprawia zamykanie okna planu rozmowy i pozostałych edytorów tekstu. Zachowuje dotychczasowy wygląd i zapis danych.
+
 ## Instalacja i aktualizacje
 
 Na Windows uruchom pobrany plik EXE. Na Macu otwórz DMG i przenieś aplikację do Applications. Preview nie ma certyfikatu wydawcy Windows ani notaryzacji Apple, dlatego system może wyświetlić ostrzeżenie lub wymagać ręcznego zatwierdzenia aplikacji.
 
-Od wersji 0.3.1 aplikacja sprawdza nowe wersje automatycznie, jeśli ta opcja jest włączona w ustawieniach. Można też sprawdzić je w **Ustawienia → Aktualizacje**. Instalacja wymaga potwierdzenia. Pakiety aktualizacji są weryfikowane podpisem Tauri.
+Od wersji 0.3.1 aplikacja sprawdza nowe wersje automatycznie, jeśli ta opcja jest włączona w ustawieniach. Można też sprawdzić je w **Ustawienia → Aktualizacje**. Instalacja wymaga potwierdzenia. Jeśli w 0.3.2 nie da się zamknąć otwartego edytora, zakończ aplikację przez jej menu, uruchom ponownie i przejdź do aktualizacji. Pakiety aktualizacji są weryfikowane podpisem Tauri.
 
 ## Status Preview
 
