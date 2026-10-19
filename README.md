@@ -1,6 +1,6 @@
 # Wingman AI — pobierz aplikację
 
-Wydanie **Preview 0.3.1** dla Windows i macOS.
+Wydanie **Preview 0.3.2** dla Windows i macOS.
 
 | System | Pobierz |
 | --- | --- |
@@ -22,6 +22,6 @@ Od wersji 0.3.1 aplikacja sprawdza nowe wersje automatycznie, jeśli ta opcja je
 
 To wydanie testowe. Migracja licencji ze starej aplikacji jest jeszcze przed nami; do aktywacji potrzebna jest licencja z nowej bazy. Dotychczasowa baza pozostaje bez zmian.
 
-Kompilacja dla obu architektur Maca nie zastępuje testów dźwięku, uprawnień i Keychain na fizycznym komputerze. Pełny test aktualizacji między dwiema zainstalowanymi wersjami oraz końcowe porównanie interfejsu 1:1 pozostają do odbioru.
+Kompilacja dla obu architektur Maca nie zastępuje testów dźwięku, uprawnień i Keychain na fizycznym komputerze. Aktualizację Windows z zainstalowanej wersji 0.3.1 do 0.3.2 przez aplikację potwierdzono 19 października 2026. Test aktualizatora na Macu i końcowe porównanie interfejsu 1:1 pozostają do odbioru.
 
 To repozytorium udostępnia instalatory i pliki aktualizacji. Kod aplikacji jest przechowywany prywatnie.
