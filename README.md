@@ -1,6 +1,6 @@
 # Wingman AI — pobierz aplikację
 
-Wydanie **Preview 0.3.3** dla Windows i macOS.
+Wydanie **Preview 0.3.4** dla Windows i macOS.
 
 | System | Pobierz |
 | --- | --- |
@@ -12,7 +12,7 @@ Wydanie **Preview 0.3.3** dla Windows i macOS.
 
 Powyższe linki zawsze prowadzą do aktualnego wydania Preview i można je umieścić na własnej stronie.
 
-Wersja 0.3.3 naprawia zamykanie okna planu rozmowy i pozostałych edytorów tekstu. Zachowuje dotychczasowy wygląd i zapis danych.
+Wersja 0.3.4 przywraca kopiowanie całej zapisanej transkrypcji: otwórz rozmowę w Transkrypcjach i wybierz „Kopiuj całą transkrypcję”. Ctrl+A / Cmd+A zaznacza sam tekst rozmowy. Poprawka zamykania edytorów z 0.3.3 pozostaje zachowana.
 
 ## Instalacja i aktualizacje
 
