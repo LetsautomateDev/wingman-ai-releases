@@ -1,6 +1,6 @@
 # Wingman AI — pobierz aplikację
 
-Wydanie **Preview 0.3.4** dla Windows i macOS.
+Wydanie **Preview 0.3.5** dla Windows i macOS.
 
 | System | Pobierz |
 | --- | --- |
@@ -12,11 +12,13 @@ Wydanie **Preview 0.3.4** dla Windows i macOS.
 
 Powyższe linki zawsze prowadzą do aktualnego wydania Preview i można je umieścić na własnej stronie.
 
-Wersja 0.3.4 przywraca kopiowanie całej zapisanej transkrypcji: otwórz rozmowę w Transkrypcjach i wybierz „Kopiuj całą transkrypcję”. Ctrl+A / Cmd+A zaznacza sam tekst rozmowy. Poprawka zamykania edytorów z 0.3.3 pozostaje zachowana.
+Wersja 0.3.5 jest na Macu podpisana certyfikatem Developer ID i notaryzowana przez Apple, więc otwiera się bez ostrzeżenia o szkodliwym oprogramowaniu. Panel jest widoczny także nad aplikacjami w trybie pełnoekranowym. Skróty Ctrl/Cmd+Shift ze strzałkami, przecinkiem i kropką działają tylko przy widocznym panelu, więc po jego ukryciu nie blokują zaznaczania tekstu w innych programach.
 
 ## Instalacja i aktualizacje
 
-Na Windows uruchom pobrany plik EXE. Na Macu otwórz DMG i przenieś aplikację do Applications. Preview nie ma certyfikatu wydawcy Windows ani notaryzacji Apple, dlatego system może wyświetlić ostrzeżenie lub wymagać ręcznego zatwierdzenia aplikacji.
+Na Windows uruchom pobrany plik EXE. Instalator nie ma jeszcze certyfikatu wydawcy, więc w oknie SmartScreen wybierz „Więcej informacji”, a następnie „Uruchom mimo to”.
+
+Na Macu otwórz DMG i przenieś aplikację do Applications. Przy przejściu z wersji 0.3.4 lub starszej macOS jednorazowo poprosi ponownie o zgody na Mikrofon i Nagrywanie ekranu oraz o dostęp do pęku kluczy (wybierz „Zawsze pozwalaj”).
 
 Od wersji 0.3.1 aplikacja sprawdza nowe wersje automatycznie, jeśli ta opcja jest włączona w ustawieniach. Można też sprawdzić je w **Ustawienia → Aktualizacje**. Instalacja wymaga potwierdzenia. Jeśli w 0.3.2 nie da się zamknąć otwartego edytora, zakończ aplikację przez jej menu, uruchom ponownie i przejdź do aktualizacji. Pakiety aktualizacji są weryfikowane podpisem Tauri.
 
