@@ -1,6 +1,6 @@
 # Wingman AI — pobierz aplikację
 
-Wydanie **Preview 0.3.5** dla Windows i macOS.
+Wydanie **Preview 0.3.9** dla Windows i macOS.
 
 | System | Pobierz |
 | --- | --- |
@@ -12,13 +12,19 @@ Wydanie **Preview 0.3.5** dla Windows i macOS.
 
 Powyższe linki zawsze prowadzą do aktualnego wydania Preview i można je umieścić na własnej stronie.
 
-Wersja 0.3.5 jest na Macu podpisana certyfikatem Developer ID i notaryzowana przez Apple, więc otwiera się bez ostrzeżenia o szkodliwym oprogramowaniu. Panel jest widoczny także nad aplikacjami w trybie pełnoekranowym. Skróty Ctrl/Cmd+Shift ze strzałkami, przecinkiem i kropką działają tylko przy widocznym panelu, więc po jego ukryciu nie blokują zaznaczania tekstu w innych programach.
+## Ostatnie zmiany
+
+- **0.3.9** — Wklejony klucz licencyjny i email są oczyszczane ze spacji, łamań linii i niewidocznych znaków, a klucz bez prefiksu `WINGMAN-` jest uzupełniany. Klucz w złym formacie pokazuje podpowiedź zamiast ogólnego błędu. Na Windows ponowna instalacja nie zajmuje kolejnego miejsca w licencji.
+- **0.3.8** — Długie spotkania nie kończą się już komunikatem „Przetwarzanie audio nie nadąża za nagrywaniem”.
+- **0.3.7** — Na Macu aplikacja nazywa się „Wingman AI” i ma własną ikonę.
+- **0.3.6** — Do wyboru doszły szybsze modele: Gemini 3.8 Flash, Gemini 3.5 Flash Lite, Claude Haiku 5.5, GPT-5.4 Mini i DeepSeek V4.1 Flash. Domyślne modele bez zmian.
+- **0.3.5** — Wersja na Maca jest podpisana certyfikatem Developer ID i notaryzowana przez Apple, więc otwiera się bez ostrzeżenia o szkodliwym oprogramowaniu. Panel jest widoczny także nad aplikacjami w trybie pełnoekranowym. Skróty Ctrl/Cmd+Shift ze strzałkami, przecinkiem i kropką działają tylko przy widocznym panelu.
 
 ## Instalacja i aktualizacje
 
 Na Windows uruchom pobrany plik EXE. Instalator nie ma jeszcze certyfikatu wydawcy, więc w oknie SmartScreen wybierz „Więcej informacji”, a następnie „Uruchom mimo to”.
 
-Na Macu otwórz DMG i przenieś aplikację do Applications. Przy przejściu z wersji 0.3.4 lub starszej macOS jednorazowo poprosi ponownie o zgody na Mikrofon i Nagrywanie ekranu oraz o dostęp do pęku kluczy (wybierz „Zawsze pozwalaj”).
+Na Macu otwórz DMG i przenieś aplikację do Applications. Przy przejściu z wersji 0.3.4 lub starszej macOS jednorazowo poprosi ponownie o zgody na Mikrofon i Nagrywanie ekranu oraz o dostęp do pęku kluczy (wybierz „Zawsze pozwalaj”). Po aktualizacji przez aplikację plik może zachować dawną nazwę `Wingman AI Preview.app`; nową nazwę daje świeża instalacja z DMG.
 
 Od wersji 0.3.1 aplikacja sprawdza nowe wersje automatycznie, jeśli ta opcja jest włączona w ustawieniach. Można też sprawdzić je w **Ustawienia → Aktualizacje**. Instalacja wymaga potwierdzenia. Jeśli w 0.3.2 nie da się zamknąć otwartego edytora, zakończ aplikację przez jej menu, uruchom ponownie i przejdź do aktualizacji. Pakiety aktualizacji są weryfikowane podpisem Tauri.
 
@@ -26,6 +32,6 @@ Od wersji 0.3.1 aplikacja sprawdza nowe wersje automatycznie, jeśli ta opcja je
 
 To wydanie testowe. Migracja licencji ze starej aplikacji jest jeszcze przed nami; do aktywacji potrzebna jest licencja z nowej bazy. Dotychczasowa baza pozostaje bez zmian.
 
-Kompilacja dla obu architektur Maca nie zastępuje testów dźwięku, uprawnień i Keychain na fizycznym komputerze. Aktualizację Windows z zainstalowanej wersji 0.3.1 do 0.3.2 przez aplikację potwierdzono 19 października 2026. Test aktualizatora na Macu i końcowe porównanie interfejsu 1:1 pozostają do odbioru.
+Kompilacja dla obu architektur Maca nie zastępuje testów dźwięku, uprawnień i Keychain na fizycznym komputerze. Aktualizację przez aplikację potwierdzono na Windows (0.3.1 → 0.3.2 → 0.3.3) i na Macu (0.3.4 → 0.3.5). Końcowe porównanie interfejsu 1:1 pozostaje do odbioru.
 
 To repozytorium udostępnia instalatory i pliki aktualizacji. Kod aplikacji jest przechowywany prywatnie.
